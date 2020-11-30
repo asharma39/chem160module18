@@ -1,0 +1,8 @@
+#!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+import sys
+print("I see",len(sys.argv),"arguments")
+print("They are:",sys.argv)
+if sys.argv[1].isnumeric():
+	print("First arg is numeric:",int(sys.argv[1]))
+else:
+	print("First arg is non-numeric")

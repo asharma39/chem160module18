@@ -1,0 +1,11 @@
+==> msd.xvg <==
+# This file was created Wed Dec 15 17:17:20 2010
+# by the following command:
+# g_msd -s wdr2.tpr -f wdr2.xtc 
+#
+# g_msd is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
